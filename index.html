@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    
+    <title>CryptoPal - Crypto Search</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+<header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="Assets/CryptoPalLogo.png" alt="CryptoPal Logo">
+      </a>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="nav__link" href="index.html">HOME</a></li>
+        <li><a class="nav__link" href="about.html">ABOUT</a></li>
+        <li><a class="nav__link" href="#services">CRYPTO RATES</a></li>
+        <li><a class="nav__link" href="#reviews">CALCULATOR</a></li>
+        <li><a class="nav__link" href="#contact-us">CONTACT US</a></li>
+      </ul>
+    </nav>
+</header>
+<main class="main-section">
+    <section class="slogan">
+        <h1 class="slogan-heading">Navigating the Crypto Seas,<br>
+            Your Trusted Pal for Rates and Fees</h1>
+        <img class="slogan-img" src="Assets/Wallet.png" alt="Wallet With Coins">
+    </section>
+    <section class="services">
+        <div class="first-service">
+            <h3 class="service-heading">
+                Find and Check the current rates
+            </h3>
+            <p class="service-text">
+                Stay updated with instant cryptocurrency rates.<br>
+                Track the latest market values effortlessly,<br>
+                making informed decisions at your fingertips.
+            </p>
+            <img class="service1-img" src="Assets/CryptoBox.png" alt="Box With Coins">
+        </div>
+        <div class="second-service">
+            <h3 class="service-heading">
+                Calculate exchange rates
+            </h3>
+            <p class="service-text">
+                Calculate cryptocurrency exchange rates quickly and accurately.<br>
+                Simplify your transactions with ease<br>
+                using our user-friendly Crypto Calculator.
+            </p>
+            <img class="service2-img" src="Assets/Exchange.png" alt="Crypto Exchange">
+        </div>
+    </section>
+
+    <section class="crypto-rates">
+        <h2 class="crypto-rates-heading">
+            Cryptocurrencies Rates
+        </h2>
+<!-- 
+        <div class="coin-list">
+            <div class="coin-list-heading">
+                <p>Coin</p>
+                <p>Price</p>
+                <p>24h Change</p>
+                <p>Market Cap</p>
+            </div>
+            <div class="coin-list-rows">
+                <a class="coin-row" href="">
+                    <span>
+                        <img src="" alt="Bitcoin">
+                        Bitcoin
+                    </span>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </a>
+            </div>
+        </div> -->
+
+
+        <table id="crypto-table">
+            <thead>
+                <tr class="crypto-table-heading">
+                    <th>Coin</th>
+                    <th>Price</th>
+                    <th>24h Change</th>
+                    <th>Market Cap</th>
+                </tr>
+            </thead>
+            <tbody class="crypto-table-body">
+                <!-- <tr>
+                    <td>Bitcoin</td>
+                    <td>$ 75000</td>
+                    <td>-3,5 %</td>
+                    <td>$ 1,423,720,862,177</td>
+                </tr>
+                <tr>
+                    <td>Ethereum</td>
+                    <td>$ 4045,20</td>
+                    <td>3,14 %</td>
+                    <td>$ 484,707,969,038</td>
+                </tr> -->
+                
+            </tbody>
+        </table>
+    </section>
+    <section class="exchange-container">
+        <div class="app-details">
+            <h2>Currency Converter</h2>     
+        </div>
+        <div class="amount-input">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount">
+        </div>
+        <div class="dropdowns">
+            <select name="" id="from-currency"></select>
+            <select name="" id="to-currency"></select>
+        </div>
+        <button id="convert-button">Convert</button>
+        <p id="result"></p>
+    </section>
+</main>
+
+<footer class="main-footer">
+      <p class="email">info@cryptopal.com</p>
+    <div class="social">
+        <ul class="social-list">
+          <li><a href=""><img src="Assets/twitter.svg" alt="Twitter"></a></li>
+          <li><a href=""><img src="Assets/instagram.svg" alt="Instagram"></a></li>
+          <li><a href=""><img src="Assets/linkedin.svg" alt="Linkedin"></a></li>
+        </ul>
+      </div>
+      <p class="cryptopal">&copy; CryptoPal 2024</p>
+  </footer>    
+</body>
+</html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Exo', serif;
+    color: #ffffff;
+    background: rgb(47,82,209);
+    background: linear-gradient(180deg, rgb(47, 82, 209) 50%, rgb(115, 37, 75) 100%);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 194px;
+    margin-left: 50px;
+}
+  
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+  
+.navbar li {
+    margin-right: 40px;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #fcfbf9;
+    border-bottom: 2px solid #fcfbf9
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.slogan {
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slogan-heading {
+    font-size: 64px;
+}
+
+.slogan-img {
+    width: 500px;
+}
+.services {
+    justify-content: center;
+    align-items: center;
+}
+.first-service,
+.second-service {
+    background-color: hsla(241, 40%, 23%, 0.5);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 30px;
+}
+
+.service-heading {
+    font-size: 64px;
+}
+
+.service-text {
+    font-size: 40px;
+    margin-top: 30px;
+}
+.service1-img {
+    width: 290px;
+}
+
+.service2-img {
+    width: 200px;
+}
+
+
+/* CRYPTO RATES SECTION*/
+
+.crypto-rates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.crypto-rates-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#crypto-table {
+    background-color: rgb(3, 11, 63);
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.crypto-table-heading {
+    background-color: rgba(88, 65, 112, 0.37);
+    height: 50px;
+}
+
+.crypto-table-body td{
+    height: 50px;
+    border-bottom: #4d16ad solid;
+}
+
+.positive {
+    color: #00db12;
+}
+
+.negative {
+    color: #db1d00;
+}
+
+
+.exchange-container {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.amount-input input {
+    background-color: transparent;
+    height: 30px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.app-details {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdowns select {
+    font-size: 20px;
+    color:#ffffff;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    margin-top: 20px;
+    border-color: #ceb7f5;
+    height: 50px;
+    border-radius: 5px;
+}
+  
+.dropdowns select:active{
+    font-size: 20px;
+    color:#ffffffab;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#convert-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4d16ad;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+
+}
+
+#result {
+    margin-top: 30px;
+}
+
+
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.email {
+    margin-top: 10px;
+}
+.social-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cryptopal {
+    margin-top: 10px;
+}
+
+.social-list li {
+    margin: 0 10px; /* Add margin between social icons */
+}
